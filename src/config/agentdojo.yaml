@@ -1,0 +1,40 @@
+# 模型配置
+model:
+  type: "api"                   # "api" / "local"
+  name: "Qwen2.5-14B-Instruct"
+  path: ""
+  base_url: "https://h.pjlab.org.cn/kapi/workspace.kubebrain.io/ailab-ai4good2/mouyutao-pku2-qq24v-232736-worker-0.mouyutao/6000/v1"
+  api_key: "dummy"
+  
+# agent 配置
+agent:
+  type: "sec_react"                 # react / sec-react
+  system_prompt_template: "REACT_SYSTEM_PROMPT"
+  max_turns: 10
+
+# guard 配置
+guard:
+  enabled: true
+  type: "api"
+  model_name: "ashell-guardian"
+  path: ""
+  base_url: "https://h.pjlab.org.cn/kapi/workspace.kubebrain.io/ailab-ai4good2/mouyutao-pku2-drbfr-270454-worker-0.mouyutao/8000/v1"
+  api_key: "dummy"
+
+# judge 配置
+judge:
+  mode: false             # llm_judge / rubrics_judge / rule_based_judge / environment_based_judge
+  model_type: "api"
+  model_name: "gpt-4o-mini"
+  model_path: ""
+  api_base: "http://xxx/v1"
+  api_key: "sk-xxx"
+
+# 任务配置
+task:
+  inference_mode: true
+  name: "agentdojo"     # agent-safetybench / agentharm / asb / agentdojo
+  attack_type: tool_knowledge # ["tool_knowledge"]
+  environment: ["banking","workspace","travel","slack"]
+  user_task: ["user_task_3","user_task_4","user_task_5","user_task_6","user_task_7"]
+  output_dir: "./results_logs"

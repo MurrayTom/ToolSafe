@@ -1,0 +1,16 @@
+# config.yaml
+experiment:
+  inference_mode: true
+  score_mode: strict   # strict / loose / exact
+  output_root: ./guardian_test_logs
+
+model:
+  type: local            # api / local
+  name: TS-Guard
+  path: "/mnt/shared-storage-user/mouyutao/AShell-ours/verl-main/checkpoints/verl_grpo_ashell_guardian_v2.4.0-rollout16_multitask_uniform/qwen2.5_7b_function_rm/global_step_80/actor_hf"             # 仅 local 时使用
+  ase_url: ""
+  api_key: ""
+
+task:
+  name: agentdojo      # agentharm / asb / agentdojo
+  attack_type: ""      # 仅 asb 使用，可为空

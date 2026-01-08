@@ -1,0 +1,39 @@
+# 模型配置
+model:
+  type: "api"                   # "api" / "local"
+  name: "Qwen2.5-14B-Instruct"
+  path: ""
+  base_url: "https://h.pjlab.org.cn/kapi/workspace.kubebrain.io/ailab-ai4good2/mouyutao-pku2-qq24v-232736-worker-0.mouyutao/6000/v1"
+  api_key: "dummy"
+  
+# agent 配置
+agent:
+  type: "sec_react"                 # react / sec-react
+  system_prompt_template: "REACT_SYSTEM_PROMPT"
+  max_turns: 10
+
+# guard 配置
+guard:
+  enabled: True
+  type: "api"
+  model_name: "ashell-guardian"
+  path: ""
+  base_url: "https://h.pjlab.org.cn/kapi/workspace.kubebrain.io/ailab-ai4good2/mouyutao-pku2-drbfr-270454-worker-0.mouyutao/8000/v1"
+  api_key: "dummy"
+
+# judge 配置
+judge:
+  mode: "rule_based_judge"             # llm_judge / rubrics_judge / rule_based_judge
+  model_type: ""
+  model_name: ""
+  model_path: ""
+  api_base: ""
+  api_key: ""
+
+# 任务配置
+task:
+  inference_mode: true
+  name: "asb"     # agent-safetybench / agentharm / asb
+  attack_type: "OPI" # only asb supported
+  task_nums: 1
+  output_dir: "./results_logs_3.8"
