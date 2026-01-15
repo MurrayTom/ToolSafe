@@ -31,9 +31,9 @@
 
 ### Key Features
 
-- [**TS-Bench**]([./TS-Bench](https://github.com/MurrayTom/ToolSafe/tree/main/TS-Bench)) – A **benchmark suite** for step-level tool invocation safety detection in LLM agents.  
-- [**TS-Guard**]([./TS-Guard](https://huggingface.co/MurrayTom/TS-Guard)) – Step-level **safety guardrail** that reasons over interaction history to detect harmful tool invocations, assess action–attack correlations, and provide **interpretable safety judgments**.  
-- [**TS-Flow**]([./ToolSafe](https://github.com/MurrayTom/ToolSafe)) – **Feedback-driven reasoning framework** that reduces harmful tool executions while improving benign task performance under prompt injection attacks.
+- [**TS-Bench**](https://github.com/MurrayTom/ToolSafe/tree/main/TS-Bench) – A **benchmark suite** for step-level tool invocation safety detection in LLM agents.  
+- [**TS-Guard**](https://huggingface.co/MurrayTom/TS-Guard) – Step-level **safety guardrail** that reasons over interaction history to detect harmful tool invocations, assess action–attack correlations, and provide **interpretable safety judgments**.  
+- [**TS-Flow**](https://github.com/MurrayTom/ToolSafe) – **Feedback-driven reasoning framework** that reduces harmful tool executions while improving benign task performance under prompt injection attacks.
 
 ToolSafe enables developers to deploy LLM agents with **proactive safety monitoring**, **trustworthy tool-use reasoning**, and **robust security guarantees**.
 
