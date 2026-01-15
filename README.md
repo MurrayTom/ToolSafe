@@ -1,5 +1,5 @@
 
-# <img src="logo.png" alt="ToolSafe Logo" height="40" style="vertical-align: middle; margin-right: 10px;"> ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback
+# <img src="/assets/ToolSafe_Logo.png" alt="" height="40" style="vertical-align: middle; margin-right: 10px;"> ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback
 
 <div align="center">
 
