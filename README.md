@@ -38,9 +38,9 @@ This repository contains:
 ├── pyproject.toml       # Python project dependencies
 ├── submit_task.sh       # Script for submitting jobs/tasks
 └── README.md
+```
 
-
-## 🛠️ Installation
+##  🛠️ Installation
 ### Prerequisites
 - Python >= 3.9
 - PyTorch (Please refer to PyTorch.org for your specific CUDA version)
@@ -58,3 +58,13 @@ conda activate toolsafe
 
 # 3. Install dependencies
 pip install -e .
+
+
+## Citation
+If you find ToolSafe useful for your research and applications, please cite using this BibTeX:
+@article{toolsafe2026,
+  title={ToolSafe: Enhancing Tool Invocation Safety of LLM-based Agents via Proactive Step-level Guardrail and Feedback},
+  author={Your Name and Collaborators},
+  journal={arXiv preprint arXiv:23XX.XXXXX},
+  year={2026}
+}
