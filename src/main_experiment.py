@@ -204,14 +204,7 @@ if __name__ == "__main__":
 
     ############### Task Start ####################
     
-    if cfg['task'].get('inference_mode', True):
-        if cfg['task'].get('name', "") == "agent-safetybench":
-            task_processor = AgentSafetyBenchProcessor(
-                agent=agent,
-                output_save_dir=output_save_dir
-            )
-            meta_data = task_processor.run()
-        
+    if cfg['task'].get('inference_mode', True):        
         if cfg['task'].get('name', "") == "agentharm":
             task_processor = AgentHarmProcessor(
                 agent=agent,
