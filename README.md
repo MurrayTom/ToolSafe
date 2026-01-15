@@ -46,7 +46,6 @@ ToolSafe enables developers to deploy LLM agents with **proactive safety monitor
 ```text
 .
 ├── TS-Bench/            # Benchmark datasets for guardrail model evaluation
-├── TS-Guard/            # Training framework of TS-Guard
 ├── benchmark/           # Evaluation benchmark of agent safety&security
 ├── scripts/             # Shell scripts for training/inference
 ├── src/                 # Source code for the agent framework
