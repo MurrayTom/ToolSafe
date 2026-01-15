@@ -1,2 +1,40 @@
 # ToolSafe
-Official Implementation of "ToolSafe: Enhancing Tool Invocation Safety of LLM-based Agents via Proactive Step-level Guardrail and Feedback"
+
+<div align="center">
+
+**Official Implementation of "ToolSafe: Enhancing Tool Invocation Safety of LLM-based Agents via Proactive Step-level Guardrail and Feedback"**
+
+[![arXiv](https://img.shields.io/badge/arXiv-23XX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/23XX.XXXXX)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
+
+</div>
+
+---
+
+## 📖 Introduction
+
+**ToolSafe** is a framework designed to enhance the safety of LLM-based agents during tool invocation. It introduces a proactive step-level guardrail and feedback mechanism to prevent unsafe tool usage.
+
+This repository contains:
+- **TS-Guard**: The core safety guardrail model/mechanism.
+- **TS-Bench**: A comprehensive benchmark for evaluating tool safety.
+- Training and evaluation scripts.
+
+## 🔥 News
+* **[2026-01-15]** 🚀 The official code and dataset for ToolSafe are released!
+* **[202X-XX-XX]** Paper accepted to [Conference Name].
+
+## 📂 Repository Structure
+
+```text
+.
+├── TS-Bench/            # Benchmark datasets and definitions
+├── TS-Guard/            # Core implementation of the Guardrail model
+├── benchmark/           # Evaluation scripts and metrics
+├── scripts/             # Shell scripts for training/inference
+├── src/                 # Source code for the agent framework
+├── utils/               # Utility functions
+├── pyproject.toml       # Python project dependencies
+├── submit_task.sh       # Script for submitting jobs/tasks
+└── README.md
