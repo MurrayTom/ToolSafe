@@ -38,3 +38,23 @@ This repository contains:
 ├── pyproject.toml       # Python project dependencies
 ├── submit_task.sh       # Script for submitting jobs/tasks
 └── README.md
+
+
+## 🛠️ Installation
+### Prerequisites
+- Python >= 3.9
+- PyTorch (Please refer to PyTorch.org for your specific CUDA version)
+
+### Setup
+This project uses pyproject.toml for dependency management.
+
+# 1. Clone the repository
+git clone https://github.com/MurrayTom/ToolSafe.git
+cd ToolSafe
+
+# 2. Create a virtual environment (Recommended)
+conda create -n toolsafe python=3.9
+conda activate toolsafe
+
+# 3. Install dependencies
+pip install -e .
