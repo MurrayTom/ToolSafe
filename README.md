@@ -7,7 +7,7 @@
   <a href="https://arxiv.org">
     <img src="https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv" alt="Arxiv">
   </a>
-  <a href="https://huggingface.co">
+  <a href="https://huggingface.co/MurrayTom/TS-Guard">
     <img src="https://img.shields.io/badge/Model-Hugging%20Face-blue?logo=huggingface" alt="Hugging Face Models">
   </a>
   <a href="https://huggingface.co">
