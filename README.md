@@ -89,6 +89,8 @@ You can modify the evaluation settings in `./src/config_guardrail_eval/`, includ
 - Other experiment-specific parameters
 
 ### 3. Agent Safety&Security Evaluation
+(We will release the code for agent safety evaluation as soon as possible)
+
 Run the agent safety and security evaluation with the following commands:
 ```bash
 python src/main_experiment.py --config ./src/config/agentharm.yaml
