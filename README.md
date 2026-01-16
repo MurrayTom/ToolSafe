@@ -4,7 +4,7 @@
 <h1 align="center"> ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback</a></h1>
 
 <div align="center">
-  <a href="https://arxiv.org">
+  <a href="http://arxiv.org/abs/2601.10156">
     <img src="https://img.shields.io/badge/Paper-arXiv-b5212f.svg?logo=arxiv" alt="Arxiv">
   </a>
   <a href="https://huggingface.co/MurrayTom/TS-Guard">
