@@ -109,7 +109,12 @@ You can modify the YAML files in `./src/config/` to adjust:
 If you find our work helpful, please consider citing it. We greatly appreciate your support.
 
 ```bibtex
-
+@article{mou2026toolsafe,
+  title={ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback},
+  author={Mou, Yutao and Xue, Zhangchi and Li, Lijun and Liu, Peiyang and Zhang, Shikun and Ye, Wei and Shao, Jing},
+  journal={arXiv preprint arXiv:2601.10156},
+  year={2026}
+}
 ```
 
 ## 📞 Contact
