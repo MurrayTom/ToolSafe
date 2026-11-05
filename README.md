@@ -10,7 +10,7 @@
   <a href="https://huggingface.co/MurrayTom/TS-Guard">
     <img src="https://img.shields.io/badge/Model-Hugging%20Face-blue?logo=huggingface" alt="Hugging Face Models">
   </a>
-  <a href="https://huggingface.co">
+  <a href="https://huggingface.co/datasets/MurrayTom/TS-Bench">
     <img src="https://img.shields.io/badge/Dataset-Hugging%20Face-blue?logo=huggingface" alt="Hugging Face Datasets">
   </a>
   <a href="https://opensource.org/licenses/MIT">
